@@ -1,0 +1,14 @@
+{
+  "name": "demo-app-react-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "getLoc": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
