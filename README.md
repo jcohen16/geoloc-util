@@ -9,7 +9,7 @@ This application is written in Node.JS, so one has to have Node installed.  Subs
 
 ## Running
 
-There is a .bat file in the bin folder. To run it, execute `SET APIKEY=<APIKEY> bin\geoloc-util.bat <location names>`.
+There is a .bat file in the bin folder. To run it, execute `SET APIKEY=<APIKEY> & .\bin\geoloc-util.bat <location names>`.
 
 Valid scenarios include:
 * geoloc-util --locations "Madison, WI"
