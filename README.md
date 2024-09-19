@@ -1,6 +1,7 @@
 # Geolocation Utility
 
-This application will return the details for a location, including the name, latitude and longitude
+This application uses the OpenWeatherMap API (https://openweathermap.org/) to return the details for a location, including the name, latitude and longitude.
+It requires an API Key from OpenWeatherMap, which can be generated via the site by creating an account there.
 
 ## Installation
 
@@ -8,7 +9,7 @@ This application is written in Node.JS, so one has to have Node installed.  Subs
 
 ## Running
 
-There is a .bat file in the bin folder. To run it, execute `geoloc-util.bat <location names>.
+There is a .bat file in the bin folder. To run it, execute `SET APIKEY=<APIKEY> bin\geoloc-util.bat <location names>`.
 
 Valid scenarios include:
 * geoloc-util --locations "Madison, WI"

@@ -1,8 +1,7 @@
-const apiKey = "f897a99d971b5eef57be6fafa0d83239";
-
 export default async function getGeoLoc(input) {
     let path = "";
     const query = encodeURI(`${input},US`);
+    const apiKey = process.env.APIKEY;
     if(isNaN(input)){
         path = `direct?q=${query}&limit=5&appid=${apiKey}`;
     }
